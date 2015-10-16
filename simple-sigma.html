@@ -1,0 +1,28 @@
+<head>
+  <title>simple-sigma</title>
+</head>
+
+<body>
+
+
+  <h1>Welcome to Sigma!</h1>
+
+  {{> hello}}
+  
+  {{> container}}
+
+</body>
+
+<template name="hello">
+  <div id="graph-control">
+  	<button>Layout</button>
+  	<p>ForceAtlas2 is set to {{counter}}.</p>
+  </div>
+</template>
+
+<template name="container">
+    <div id="container">
+      <div id="graph-container"></div>
+    </div>
+</template>
+
