@@ -15,3 +15,29 @@
       right: 0;
       position: relative;
     }
+
+#slider-control { 
+    height: 40px; 
+    position: fixed; 
+    bottom:30px;
+    width:99%; 
+    opacity: 1;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  font: 400 9px/9px Arial;
+  border-radius: 3px;
+  background: #fff;
+  top: -63px;
+  padding: 5px;
+  left: -9px;
+  text-align: center;
+  width: 50px;
+}
+.tooltip strong {
+  display: block;
+  padding: 2px;
+}
