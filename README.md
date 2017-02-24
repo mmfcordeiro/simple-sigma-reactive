@@ -1,2 +1,2 @@
 # simple-sigma-reactive
-reactive grapths using sigmajs
+reactive graphs using sigmajs
